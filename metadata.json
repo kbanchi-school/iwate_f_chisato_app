@@ -1,0 +1,5 @@
+{
+  "name": "Study Mate",
+  "description": "An educational demo application for middle school students and teachers to share and view lecture videos, take quizzes, and manage schedules. It includes features like a point system, to-do lists, and AI-powered quiz generation.",
+  "requestFramePermissions": []
+}
