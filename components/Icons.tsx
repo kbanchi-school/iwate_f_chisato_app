@@ -61,3 +61,25 @@ export const CalendarIcon = ({ className }: { className?: string }) => (
         <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0h18M-4.5 12h22.5" />
     </svg>
 );
+
+export const HeartIcon = ({ className, filled }: { className?: string, filled?: boolean }) => (
+    <svg xmlns="http://www.w3.org/2000/svg" className={className} fill={filled ? 'currentColor' : 'none'} viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+    </svg>
+);
+
+export const TrophyIcon = ({ className }: { className?: string }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className={className}>
+    <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 18.75h-9a9 9 0 009 0zM19.5 15.75a.75.75 0 01-.75.75H5.25a.75.75 0 01-.75-.75V11.25a.75.75 0 01.75-.75h13.5a.75.75 0 01.75.75v4.5z" />
+    <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 15.75V18m7.5-2.25V18" />
+    <path strokeLinecap="round" strokeLinejoin="round" d="M12 15.75V18" />
+    <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.75A2.25 2.25 0 0114.25 9v1.5a.75.75 0 01-1.5 0V9A.75.75 0 0012 8.25a.75.75 0 00-.75.75v1.5a.75.75 0 01-1.5 0V9A2.25 2.25 0 0112 6.75z" />
+    <path strokeLinecap="round" strokeLinejoin="round" d="M14.25 4.5c.621 0 1.125.504 1.125 1.125V6.75M9.75 4.5a1.125 1.125 0 011.125 1.125V6.75" />
+  </svg>
+);
+
+export const ClipboardListIcon = ({ className }: { className?: string }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+    <path strokeLinecap="round" strokeLinejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+  </svg>
+);

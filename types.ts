@@ -1,5 +1,5 @@
 export type UserRole = 'student' | 'teacher';
-export type Screen = 'home' | 'recommended' | 'quiz' | 'class' | 'settings' | 'video';
+export type Screen = 'home' | 'plan' | 'quiz' | 'class' | 'settings' | 'video' | 'ranking';
 
 export interface User {
   id: string;
@@ -10,6 +10,7 @@ export interface User {
   points: number;
   avatarColor: string;
   tracksStudyTime: boolean;
+  birthday: string; // YYYY-MM-DD
 }
 
 export interface Todo {
@@ -35,6 +36,7 @@ export interface Video {
     src: string;
     description: string;
     comments: Comment[];
+    likes: number;
 }
 
 export interface QuizQuestion {
